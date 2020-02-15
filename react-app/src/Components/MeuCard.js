@@ -6,7 +6,7 @@ export default function MeuCard(props){
         <Card>
           
             <CardContent>
-                Testando
+                R$ {props.valor}
             </CardContent>
         </Card>
     )
