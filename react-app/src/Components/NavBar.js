@@ -12,7 +12,7 @@ export default function NavBar(){
                     </IconButton>
                     <Typography style={{ flexGrow:1 }} >Finance</Typography>
                     <Button color="inherit">
-                        <Link to='/'>Admin</Link>
+                        <Link style={{ color: 'inherit', textDecoration: 'none' }} to='/'>Admin</Link>
                     </Button>
                     <Button color="inherit">Financeiro</Button>
                 </Toolbar>
