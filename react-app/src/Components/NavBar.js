@@ -14,7 +14,9 @@ export default function NavBar(){
                     <Button color="inherit">
                         <Link style={{ color: 'inherit', textDecoration: 'none' }} to='/'>Admin</Link>
                     </Button>
-                    <Button color="inherit">Financeiro</Button>
+                    <Button color="inherit">
+                        <Link style={{ color: 'inherit', textDecoration: 'none' }} to='/financeiro'>Financeiro</Link>
+                    </Button>
                 </Toolbar>
             </AppBar>
         </div>
