@@ -1,7 +1,7 @@
 import React from 'react';
 import {AppBar, Toolbar, Button, IconButton, Typography} from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
-
+import {Link} from 'react-router-dom'
 export default function NavBar(){
     return(
         <div>
@@ -11,7 +11,9 @@ export default function NavBar(){
                         <MenuIcon />
                     </IconButton>
                     <Typography style={{ flexGrow:1 }} >Finance</Typography>
-                    <Button color="inherit">Admin</Button>
+                    <Button color="inherit">
+                        <Link to='/'>Admin</Link>
+                    </Button>
                     <Button color="inherit">Financeiro</Button>
                 </Toolbar>
             </AppBar>
